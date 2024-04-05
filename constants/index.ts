@@ -47,10 +47,10 @@ export const plans = [
     name: "ImageStudio Starter",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
-    credits: 20,
+    credits: 3,
     inclusions: [
       {
-        label: "20 Free Credits",
+        label: "3 Free Credits",
         isIncluded: true,
       },
       {
