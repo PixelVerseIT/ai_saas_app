@@ -44,13 +44,13 @@ export const navLinks = [
 export const plans = [
   {
     _id: 1,
-    name: "ImageStudio Starter",
+    name: "ImageStudio Recharge",
     icon: "/assets/icons/free-plan.svg",
-    price: 0,
-    credits: 3,
+    price: 7,
+    credits: 20,
     inclusions: [
       {
-        label: "3 Free Credits",
+        label: "20 Credits",
         isIncluded: true,
       },
       {
@@ -69,7 +69,7 @@ export const plans = [
   },
   {
     _id: 2,
-    name: "ImageStudio Recharge",
+    name: "ImageStudio Pro",
     icon: "/assets/icons/free-plan.svg",
     price: 10,
     credits: 35,
