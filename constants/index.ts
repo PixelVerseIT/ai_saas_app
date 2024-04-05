@@ -69,13 +69,13 @@ export const plans = [
   },
   {
     _id: 2,
-    name: "ImageStudio Premium",
+    name: "ImageStudio Recharge",
     icon: "/assets/icons/free-plan.svg",
     price: 10,
-    credits: 50,
+    credits: 35,
     inclusions: [
       {
-        label: "50 Credits",
+        label: "35 Credits",
         isIncluded: true,
       },
       {
@@ -94,13 +94,13 @@ export const plans = [
   },
   {
     _id: 3,
-    name: "ImageStudio Max",
+    name: "ImageStudio Ultra",
     icon: "/assets/icons/free-plan.svg",
-    price: 19,
-    credits: 100,
+    price: 100,
+    credits: 5000,
     inclusions: [
       {
-        label: "100 Credits",
+        label: "Unlimited Credits",
         isIncluded: true,
       },
       {
