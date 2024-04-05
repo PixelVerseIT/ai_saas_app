@@ -44,7 +44,7 @@ export const navLinks = [
 export const plans = [
   {
     _id: 1,
-    name: "Free",
+    name: "ImageStudio Starter",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
     credits: 20,
@@ -69,13 +69,13 @@ export const plans = [
   },
   {
     _id: 2,
-    name: "Pro Package",
+    name: "ImageStudio Premium",
     icon: "/assets/icons/free-plan.svg",
-    price: 40,
-    credits: 120,
+    price: 10,
+    credits: 50,
     inclusions: [
       {
-        label: "120 Credits",
+        label: "50 Credits",
         isIncluded: true,
       },
       {
@@ -94,13 +94,13 @@ export const plans = [
   },
   {
     _id: 3,
-    name: "Premium Package",
+    name: "ImageStudio Max",
     icon: "/assets/icons/free-plan.svg",
-    price: 199,
-    credits: 2000,
+    price: 19,
+    credits: 100,
     inclusions: [
       {
-        label: "2000 Credits",
+        label: "100 Credits",
         isIncluded: true,
       },
       {
