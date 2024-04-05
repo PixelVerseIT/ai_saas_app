@@ -50,7 +50,7 @@ export const Collection = ({
     <>
       <div className="collection-heading">
         <h2 className="h2-bold text-dark-600">Recent Edits</h2>
-        {hasSearch && <Search />}
+        {/* {hasSearch && <Search />} */}
       </div>
 
       {images.length > 0 ? (
